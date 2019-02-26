@@ -35,15 +35,21 @@ li {
 }
 
 nav {
-	padding: 5px 0;
+	padding: 5px 0 50px;
+}
+
+nav ul {
+	width: 50%;
+	max-height: 500px;
+	overflow-y: auto;
+	border-radius: 0 100px 0 100px;
+	margin: auto;
+	background-image: linear-gradient(to right, rgb(228, 247, 255), rgb(38, 162, 183));
 }
 
 nav ul li {
-	margin: auto;
 	padding: 10px 0;
-	width: 50%;
 	text-align: center;
-    background-image: linear-gradient(to right, rgb(228, 247, 255), rgb(38, 162, 183));
 }
 
 nav ul li:first-child {
