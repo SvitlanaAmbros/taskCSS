@@ -7,10 +7,10 @@ body {
 
 h1 {
 	text-align: center;
-    background: #5bb3c2;
-    color: #fff;
-    box-shadow: 3px 3px 5px 6px #ccc;
-    border-radius: 10px
+	background: #5bb3c2;
+	color: #fff;
+	box-shadow: 3px 3px 5px 6px #ccc;
+	border-radius: 10px
 }
 
 h2 {
@@ -71,7 +71,7 @@ nav ul li:hover:before {
 
 nav h2 {
 	cursor: pointer;
-    text-align: center;
+	text-align: center;
 }
 
 nav li a:first-child {
@@ -91,7 +91,7 @@ footer {
 	width: 100%;
 	padding: 35px;
 	background: #4f4f4f;
-    text-align: center;
+	text-align: center;
 }
 
 footer p {
