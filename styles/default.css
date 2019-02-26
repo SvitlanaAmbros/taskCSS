@@ -1,3 +1,99 @@
+body {
+	padding: 0;
+	margin: 0;
+	background: #f5f5f5;
+	font-family: 'Cabin', sans-serif;
+}
+
 h1 {
 	text-align: center;
+    background: #5bb3c2;
+    color: #fff;
+    box-shadow: 3px 3px 5px 6px #ccc;
+    border-radius: 10px
+}
+
+h2 {
+	color: #165964;
+	text-align: center;
+}
+
+a {
+	text-decoration: none;
+	cursor: pointer;
+	color: #000;
+}
+
+ul {
+	padding: 0;
+	list-style-type: none;
+}
+
+li {
+	padding: 10px 5px;
+	font-size: 18px;
+}
+
+nav {
+	padding: 5px 0;
+}
+
+nav ul li {
+	margin: auto;
+	padding: 10px 0;
+	width: 50%;
+	text-align: center;
+    background-image: linear-gradient(to right, rgb(228, 247, 255), rgb(38, 162, 183));
+}
+
+nav ul li:first-child {
+	border-radius: 0 100px 0 0;
+}
+
+nav ul li:last-child {
+	border-radius: 0 0 0 100px;
+}
+
+nav ul li:hover {
+	font-size: 20px;
+	background-image: linear-gradient(to right, rgb(228, 245, 250), rgb(26, 141, 160));
+}
+
+nav ul li:hover:before {
+	content: "* ";
+}
+
+nav h2 {
+	cursor: pointer;
+    text-align: center;
+}
+
+nav li a:first-child {
+	color: #000;
+}
+
+nav li a:last-child {
+	color: #fff;
+}
+
+article {
+	padding: 20px 30px;
+	background: #fff;
+}
+
+footer {
+	width: 100%;
+	padding: 35px;
+	background: #4f4f4f;
+    text-align: center;
+}
+
+footer p {
+	padding: 0;
+	margin: 0;
+	color: #fff;
+}
+
+footer p a {
+	color: #5bb3c2;
 }
